@@ -1,0 +1,35 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.night {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.shooting_star {
+    position: absolute;
+    width: 4px;
+    height:4px;
+    background: rgba(255, 255, 255, 0.7);
+    animation: shooting 3.5s linear infinite;
+}
+
+@keyframes shooting {
+    10% {
+        transform: translate(10, 20) scale(10);
+        opacity: 20;
+    }
+    100% {
+        transform: translate(150px, 100px) scale(1.5);
+        opacity: 4;
+    }
+}
+
