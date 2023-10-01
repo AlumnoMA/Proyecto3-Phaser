@@ -19,5 +19,5 @@ app.use("/node_modules", express.static(__dirname+"/node_modules"));
 
 app.listen(5000, function(){
     //esta es la primera parte hasta encontrar este mensaje a traves del node server.js en la terminal
-    console.log("Servidor NODE GUILLERMOAPRILE AROUND corriendo")
+    console.log("Servidor NODE Grupo 6 AROUND corriendo")
 })
