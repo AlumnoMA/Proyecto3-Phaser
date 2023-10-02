@@ -1,3 +1,4 @@
+import GameOver from "./gameOver.js";
 
 class Play1 extends Phaser.Scene {
     constructor() {
@@ -7,7 +8,7 @@ class Play1 extends Phaser.Scene {
         this.scoreText = "";
     }
     preload(){
-        this.load.image('sky', '../public/img/fondo.jpg');
+        this.load.image('sky', '../public/img/Play.jpg');
         this.load.image('ground', '../public/img/plataforma.png');
         this.load.image('star', '../public/img/star.png');
         this.load.image('bomb', '../public/img/bomb.png');
@@ -131,7 +132,7 @@ class Play1 extends Phaser.Scene {
         
             player.anims.play('turn');
         
-            gameOver = true;
+            this.scene.start("GameOver");
         }
 }
 export default Play1;
