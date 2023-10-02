@@ -1,7 +1,7 @@
 {
   "name": "25-09.2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Realizar un videojuego con herramientas de Phaser.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,16 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "extends": "^0.0.4",
     "nodemon": "^3.0.1",
     "phaser": "^3.60.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlumnoMA/Proyecto3-Phaser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlumnoMA/Proyecto3-Phaser/issues"
+  },
+  "homepage": "https://github.com/AlumnoMA/Proyecto3-Phaser#readme"
 }
